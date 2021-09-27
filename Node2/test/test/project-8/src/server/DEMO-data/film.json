@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Бесконечность",
+    "genre": [
+      "Боевики",
+      "Фантастика",
+      "Зарубежные"
+    ],
+    "directors": [
+      "Антуан Фукуа"
+    ],
+    "actors": [
+      "Дилан О’Брайен",
+      "Марк Уолберг",
+      "Каэ Александр"
+    ],
+    "link": [
+      "https://megogo.net/ru/view/14169385-beskonechnost.html?video_view_tab=cast"
+    ],
+    "grade": 3.8,
+    "studio": "XXX"
+  },
+  {
+    "email": "testservicexxx@gmail.com",
+    "password": "testpassword123"
+  }
+]
+

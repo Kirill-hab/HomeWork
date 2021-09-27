@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./quiz.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <title>QUIZ</title>
+</head>
+<body>
+<div class="GLOBAL">
+
+    <div class="block1">
+        <div class="blockQuiz">
+            <div class="card border-info mb-3" style="max-width: 20rem;">
+                <div class="card-header">QUIZ</div>
+                <div class="card-body">
+                    <h4 class="card-title" style="text-align: center">Question</h4>
+                    <div class="card-text" id="quiz"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="blockForm">
+            <form name="publish" style="display: flex">
+                <div class="form-group has-success">
+                    <label>
+                        <input type="text" class="form-control is-valid" name="message" id="mess"/>
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-outline-info">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="block2">
+        <div class="blockMess">
+            <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header" style="display: flex; justify-content: flex-end;align-items: center;">MESSAGE
+                    <span class="time" id="time">0</span>
+                </div>
+                <div class="card-body">
+                    <p class="card-text" id="userMess"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="blockUser">
+            <ul id="users"></ul>
+        </div>
+    </div>
+</div>
+
+<script type="module" src="index.js"></script>
+</body>
+</html>

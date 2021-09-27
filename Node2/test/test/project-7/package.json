@@ -1,0 +1,16 @@
+{
+  "name": "project-7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server/server.js",
+    "client": "node client/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.2.2"
+  }
+}
